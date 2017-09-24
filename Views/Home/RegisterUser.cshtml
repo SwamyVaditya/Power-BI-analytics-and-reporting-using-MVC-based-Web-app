@@ -1,0 +1,61 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="/css/registration.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <script src="/Scripts/HelperScripts/registration.js"></script>
+    <form>
+        <h1>Sign Up</h1>
+        <fieldset>
+            <legend><span class="number">1</span>Your basic info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" required>
+
+            <label for="name">Login Name:</label>
+            <input type="text" id="loginname" name="login_name" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="user_password" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">2</span>Project Detail</legend>
+            <label for="name">Project Name:</label>
+            <input type="text" id="project_id" name="project_id" required>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">3</span>Contact info</legend>
+            <label for="name">Phone/Mobile</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="name">City</label>
+            <input type="text" id="city" name="city">
+
+            <label for="name">State</label>
+            <input type="text" id="state" name="state">
+
+            <label for="name">Country</label>
+            <input type="text" id="country" name="country">
+
+        </fieldset>
+        <button type="submit" onclick="validateAndAddUserInfo()">Sign Up</button>
+    </form>
+</body>
+</html>

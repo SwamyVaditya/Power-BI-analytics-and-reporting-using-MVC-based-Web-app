@@ -1,0 +1,167 @@
+﻿#builderManageDiv {
+    width: 525%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+#BasicInfoLbl, #OrgInfoLbl, #ContactInfoLbl {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    font-size: 24pt;
+    color: black;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+
+#BasicInfoDiv, #OrgInfoDiv, #ContactInfoDiv {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+}
+
+.BasicInfoLine, .OrgInfoLine, .ContactInfoLine {
+    border: 1px solid black;
+    position: absolute;
+    width: 70%;
+    left: 1%;
+    margin: 0;
+    padding: 0;
+}
+
+#BasicInfoDiv {
+    top: 0;
+    height: 40%;
+}
+
+#OrgInfoDiv {
+    top: 40%;
+    height: 20%;
+}
+
+#ContactInfoDiv {
+    top: 60%;
+    height: 30%;
+}
+
+#BasicInfoLbl {
+    height: 12%;
+}
+
+#OrgInfoLbl {
+    height: 25%;
+}
+
+#ContactInfoLbl {
+    height: 16%;
+}
+
+.BasicInfoLine {
+    top: 12%;
+}
+
+.OrgInfoLine {
+    top: 25%;
+}
+
+.ContactInfoLine {
+    top: 16%;
+}
+
+#edit_cityLbl, #edit_countryLbl, #edit_loginnameLbl, #edit_mailLbl, #edit_nameLbl, #edit_orgnameLbl,
+#edit_passwordLbl, #edit_phoneLbl, #edit_stateLbl {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 5%;
+    text-align: right;
+    font-size: 18pt;
+    color: black;
+    width: 10%;
+}
+
+#edit_cityTxt, #edit_countryTxt, #edit_loginnameTxt, #edit_mailTxt, #edit_nameTxt, #edit_orgnameTxt,
+#edit_passwordTxt, #edit_phoneTxt, #edit_stateTxt {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 18%;
+    font-size: 16pt;
+    color: grey;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#edit_nameLbl, #edit_nameTxt {
+    top: 20%;
+}
+
+#edit_loginnameLbl, #edit_loginnameTxt {
+    top: 40%;
+}
+
+#edit_mailLbl, #edit_mailTxt {
+    top: 60%;
+}
+
+#edit_passwordLbl, #edit_passwordTxt {
+    top: 80%;
+}
+
+#edit_orgnameLbl, #edit_orgnameTxt {
+    top: 42%;
+}
+
+#edit_phoneLbl, #edit_phoneTxt {
+    top: 29%;
+}
+
+#edit_cityLbl, #edit_cityTxt {
+    top: 55%;
+}
+
+#edit_stateLbl, #edit_stateTxt {
+    top: 81%;
+}
+
+#edit_countryLbl, #edit_countryTxt {
+    top: 107%;
+}
+
+.SaveChanges, .CancelChanges,.cancel {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    color: white;
+    font-size: 16pt;
+    background-color: #595959;
+    width: 6%;
+    top: 99%;
+    height: 5%;
+}
+
+.SaveChanges {
+    left: 58%;
+}
+
+.CancelChanges,.cancel {
+    left: 65%;
+}
+
+#edit_builderidTxt {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+}

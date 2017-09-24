@@ -1,0 +1,112 @@
+﻿
+p {
+    font-size: 16pt;
+    left: 1%;
+    position: absolute;
+}
+
+html, body, form {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidePanel {
+    position: absolute;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0%;
+    width: 15%;
+    background-color: #0099cc;
+    border-style: none;
+}
+
+.homeBtn {
+    width: 93px;
+    height: 93px;
+    -webkit-border-radius: 93px;
+    background-image: url(/Image/admin.png);
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    position: absolute;
+    top: 2.8%;
+    left: 30%;
+}
+
+.builderBtn {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 18%;
+    left: 0%;
+    height: 5%;
+    width: 100%;
+    font-size: 16pt;
+    font-family: "Arial";
+    background-color: #0099cc;
+    color: white;
+    border-style: none;
+    text-align: right;
+}
+
+.projectBtn {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 23%;
+    left: 0%;
+    width: 100%;
+    font-size: 16pt;
+    font-family: "Arial";
+    height: 5%;
+    background-color: #0099cc;
+    color: white;
+    border-style: none;
+    text-align: right;
+}
+
+    .builderBtn:hover, .projectBtn:hover {
+        background-color: #0086b3;
+    }
+
+#headerCentered {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 15%;
+    width: 85%;
+    height: 10%;
+    background-color: #4d4d4d;
+}
+
+#adminLbl {
+    position: absolute;
+    left: 1%;
+    top: 16%;
+    font-size: 38pt;
+    color: white;
+}
+
+#adminDiv {
+    width: 525%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+#adminImg {
+    position: absolute;
+    text-align: center;
+    top: 18%;
+    left: 38%;
+    margin: 0;
+    padding: 0;
+}

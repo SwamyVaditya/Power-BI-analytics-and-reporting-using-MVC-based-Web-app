@@ -1,0 +1,213 @@
+﻿
+#builderTableDiv {
+    width: 525%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    left: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+.addBuilderBtn {
+    position: fixed;
+    top: 14%;
+    right: 4%;
+    border-style: none;
+    color: white;
+    background-color: #4d4d4d;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    height: 4%;
+    font-size: 130%;
+}
+
+.builderLbl {
+    position: absolute;
+    top: 12%;
+    left: 118%;
+    font-size: 28pt;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    width: 250%;
+}
+
+.builderNameLbl {
+    position: absolute;
+    left: 0;
+    width: 18%;
+    padding-left: 7px;
+    margin: 0;
+    font-size: 16pt;
+}
+
+.orgNameLbl {
+    position: absolute;
+    left: 18%;
+    width: 28%;
+    border-left: 1px solid black;
+    padding-left: 7px;
+    margin: 0;
+    font-size: 16pt;
+}
+
+.loginNameLbl {
+    position: absolute;
+    left: 46%;
+    width: 22%;
+    border-left: 1px solid black;
+    padding-left: 7px;
+    margin: 0;
+    font-size: 16pt;
+}
+
+.countryNameLbl {
+    position: absolute;
+    left: 68%;
+    width: 12%;
+    border-left: 1px solid black;
+    padding-left: 7px;
+    margin: 0;
+    font-size: 16pt;
+}
+
+.actionLbl {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    border-left: 1px solid black;
+    padding-left: 26px;
+    margin: 0;
+    font-size: 16pt;
+}
+
+.headingTblLine {
+    width: 100%;
+    position: absolute;
+    top: 3.5%;
+    border: 2px solid #595959;
+    padding: 0;
+    margin: 0;
+}
+
+#builderConTable {
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    padding: 0;
+    margin: 0;
+}
+
+.UserRow {
+    position: absolute;
+    height: 4.5%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#namediv {
+    position: absolute;
+    left: 0;
+    width: 18%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    padding: 0;
+    margin: 0;
+    padding-left: 7px;
+    background-color: #80dfff;
+}
+
+#orgdiv {
+    position: absolute;
+    left: 18%;
+    width: 28%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    padding-left: 7px;
+    padding: 0;
+    margin: 0;
+    background-color: #80dfff;
+}
+
+#loginnamediv {
+    position: absolute;
+    left: 46%;
+    width: 22%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    padding: 0;
+    margin: 0;
+    padding-left: 7px;
+    background-color: #80dfff;
+}
+
+#countrydiv {
+    position: absolute;
+    left: 68%;
+    width: 12%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    padding: 0;
+    margin: 0;
+    padding-left: 7px;
+    background-color: #80dfff;
+}
+
+#name, #organisation, #loginname, #country {
+    position: absolute;
+    font-size: 14pt;
+    top: 10%;
+}
+
+.ManageButton {
+    position: absolute;
+    left: 82%;
+    width: 6%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    color: white;
+    font-size: 16pt;
+    background-color: #595959;
+}
+
+.DeleteButton {
+    position: absolute;
+    left: 89%;
+    width: 6%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    color: white;
+    font-size: 16pt;
+    background-color: #595959;
+}
+
+.addBuilderBtn:hover {
+    background-color: grey;
+}
+
+#builderIdLbl {
+    position: absolute;
+    left: 95%;
+    width: 4%;
+    height: 0;
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.dummyBuilderIdBtnDelete, .dummyBuilderIdBtnManage {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: none;
+    padding: 0;
+    margin: 0;
+}

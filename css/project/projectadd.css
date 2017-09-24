@@ -1,0 +1,111 @@
+﻿#AddProjectDiv {
+    position: absolute;
+    margin: 0;
+    top:30%;
+    left:270%;
+    padding: 0;
+    height: 30%;
+    width: 220%;
+    border: 2px solid grey;
+    z-index: 3;
+    background-color: white;
+}
+
+.projectHeader {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    background-color:  #4d4d4d;
+}
+
+.projHeaderLbl {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 34pt;
+    color: white;
+}
+
+#projectaddname {
+    position: absolute;
+    top: 35%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    left: 3%;
+    font-size:20pt;
+     text-align:right;
+}
+
+#projaddbuilder {
+    position: absolute;
+    top: 55%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    left: 3%;
+    font-size:20pt;
+     text-align:right;
+}
+
+#projaddnametxt {
+    position: absolute;
+    top: 33%;
+    margin: 0;
+    padding: 0;
+    left: 30%;
+    height: 13%;
+    width: 60%;
+    color: grey;
+    font-size: 16pt;
+    border-radius:5px;
+}
+
+.projaddbuilderlist {
+    position: absolute;
+    top: 53%;
+    margin: 0;
+    padding: 0;
+    left: 30%;
+    height: 15%;
+    width: 61%;
+    color: grey;
+    font-size: 16pt;
+    border-radius:5px;
+}
+
+.projaddyesbtn,.projaddnobtn {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 80%;
+    height: 15%;
+    width: 15%;
+    border-style: none;
+    color: white;
+    background-color:#4d4d4d; 
+    font-size:18pt;
+}
+
+.projaddyesbtn {
+    left: 64%;
+}
+
+.projaddnobtn {
+    left: 82%;
+}
+
+#disbaleBackDiv {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 2;
+}

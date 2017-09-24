@@ -1,0 +1,93 @@
+﻿head,body,form {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font: 18px arial, verdana;
+}
+p, table
+{
+     font: 14px arial, verdana;
+}
+.step
+{
+    font: 16px arial, verdana;
+    font-weight: bold;
+}
+
+.loginDiv {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    left:39%;
+    top:22%;
+}
+
+.signintxt {
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 13%;
+    top: 105%;
+}
+
+.signinpanel {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:115%;
+    width:99%;
+    height:50%;
+}
+
+.signInButton {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+        background:#00ace6;
+    color: white;
+    font: 20px arial, verdana;
+    font-weight: bold;
+    height:35%;
+    left:14.5%;
+    width:70%;
+    border-style: none;
+}
+
+.signInButton:hover {
+    background: #33ccff;
+}
+
+#center {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+}
+
+.nameBox {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+    border-radius: 5px;
+    width:70%;
+    left:14.5%;
+    top:5%;
+    height:25%;
+}
+
+#headerCentered {
+    height: 10%;
+    text-align: center;
+}
+

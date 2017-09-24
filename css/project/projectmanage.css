@@ -1,0 +1,82 @@
+﻿#UpdateProjectDiv {
+    position: absolute;
+    margin: 0;
+    top:30%;
+    left:270%;
+    padding: 0;
+    height: 30%;
+    width: 220%;
+    border: 2px solid grey;
+    z-index: 3;
+    background-color: white;
+}
+
+#projectupdatename {
+    position: absolute;
+    top: 35%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    left: 3%;
+    font-size:20pt;
+     text-align:right;
+}
+
+
+#projupdatenametxt {
+    position: absolute;
+    top: 33%;
+    margin: 0;
+    padding: 0;
+    left: 30%;
+    height: 13%;
+    width: 60%;
+    color: grey;
+    font-size: 16pt;
+    border-radius:5px;
+}
+
+#projreport {
+    position: absolute;
+    top: 55%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    left: 3%;
+    font-size:20pt;
+     text-align:right;
+}
+
+#projreporttxt {
+    position: absolute;
+    top: 53%;
+    margin: 0;
+    padding: 0;
+    left: 30%;
+    height: 15%;
+    width: 61%;
+    color: grey;
+    font-size: 16pt;
+    border-radius:5px;
+}
+
+.projupdateyesbtn,.projupdatenobtn {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 80%;
+    height: 15%;
+    width: 15%;
+    border-style: none;
+    color: white;
+    background-color:#4d4d4d; 
+    font-size:18pt;
+}
+
+.projupdateyesbtn {
+    left: 64%;
+}
+
+.projupdatenobtn {
+    left: 82%;
+}

@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BuilderWebApp3.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Power BI - Web application</title>
+      <script>
+          var count = 0;
+          function myFunction() {
+              embedUrl = document.getElementById('MainContent_embedTileUrl').innerText;
+              var tilesURL = embedUrl.split("~~");
+              for (var i = 0; i < tilesURL.length;i++)
+              {
+                  iframe = document.createElement('iframe');
+                  iframe.style.width = "500px";
+                  iframe.style.height = "500px";
+                  document.body.appendChild(iframe);
+                  iframe.setAttribute("src", tilesURL[i] + "&width=" + 500 + "&height=" + 500);
+                  iframe.setAttribute("id", "iframe"+count);
+                  iframe.setAttribute("frameborder", "0");
+                  iframe.onload = postActionLoadTile;
+                  count++;
+              }
+          }
+
+          function postActionLoadTile() {
+              while (count != 0) {
+                  // push the message.
+                  
+                  token = document.getElementById('MainContent_accesstoken').innerText;
+                  var m = { action: "loadTile", accessToken: token, height: 500, width: 500 };
+                  message = JSON.stringify(m);
+                  iframe.contentWindow.postMessage(message, "*");
+                  iframe = document.getElementById('iframe' + (count - 2));
+                  count--;
+                  iframe.onload = postActionLoadTile;
+              }
+          }
+
+          function invalidUser() {
+              alert("No such user found. Please enter a valid Username/LoginID.");
+          }
+
+      </script>
+
+</head>
+
+<body>
+    <form id="form" runat="server">
+         <script src ="/Scripts/HelperScripts/sitemaster.js"></script>
+        <div id="headerCentered">
+            <img src="\Image\Shoonyalogo.png" alt=""/>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+                <link rel="stylesheet" href="/css/master.css" type="text/css" />
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
